@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*REGOLE GENERICHE*/
+
+.padding_gen{
+  padding: 0 20px 0 30px;
+}
+.green{
+  background-color: #7fb802;
+}
+
+.a{
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 5px;
+  margin-right: 5px;
+}
+/*REGOLE CSS HEADER*/
+
+header{
+  background-image: url(img/vecchi.JPG);
+  background-size: cover;
+  height: 450px;
+}
+
+.logo{
+  margin: 1% 0 0 10%;
+  float: left;
+}
+
+nav{
+  padding: 25px 0 0 20px;
+  float: left;
+  width: 40%;
+}
+header ul {
+  list-style: none;
+}
+
+header ul li{
+  display: inline-block;
+  padding: 7px;
+}
+
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.div_bottoni{
+  float: left;
+  padding: 23px;
+
+}
+
+.div_bottoni input{
+  padding: 10px;
+  font-size: 12px;
+  margin-right: 10px;
+}
