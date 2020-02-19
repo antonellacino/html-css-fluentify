@@ -5,38 +5,77 @@
 }
 /*REGOLE GENERICHE*/
 
-.padding_gen{
-  padding: 0 20px 0 30px;
-}
 .green{
   background-color: #7fb802;
 }
 
-.a{
+nav a{
   color: white;
   font-weight: bold;
   font-size: 12px;
   padding-left: 5px;
   margin-right: 5px;
+  text-decoration: none;
 }
-/*REGOLE CSS HEADER*/
 
+.ret_grigi{
+  height: 200px;
+  background-color: #A9A7AA;
+}
+
+.center{
+  text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.bottone{
+  padding: 10px;
+  color: white;
+  font-size: 13px;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+}
+
+.bottone_medio{
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.bottone_trasparente{
+  background: transparent;
+  border: 1px solid #4e8cb6;
+}
+
+/*REGOLE CSS HEADER*/
 header{
   background-image: url(img/vecchi.JPG);
-  background-size: cover;
-  height: 450px;
+  background-position: bottom right;
+  background-color: #0D325A;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 500px;
 }
 
 .logo{
-  margin: 1% 0 0 10%;
   float: left;
 }
 
 nav{
-  padding: 25px 0 0 20px;
   float: left;
-  width: 40%;
+  width: 50%;
 }
+
+.nav_row{
+  line-height: 38px;
+  padding: 20px 0 50px;
+}
+
 header ul {
   list-style: none;
 }
@@ -46,20 +85,27 @@ header ul li{
   padding: 7px;
 }
 
-header::after{
+.nav_row::after{
   content: "";
   display: table;
   clear: both;
 }
 
 .div_bottoni{
-  float: left;
-  padding: 23px;
-
+  float: right;
+  padding: 7px;
 }
 
-.div_bottoni input{
-  padding: 10px;
+nav a:hover{
+  color: orange;
+}
+
+.celeste{
+  color: #4e8cb6;
+  font-weight: bold;
   font-size: 12px;
-  margin-right: 10px;
+  padding-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
 }
+/*INIZIO SECONDA SLIDE*/
