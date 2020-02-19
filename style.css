@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: sans-serif;
+}
 /*REGOLE GENERICHE*/
 
 .green{
@@ -20,7 +24,7 @@ nav a{
 
 .ret_grigi{
   height: 200px;
-  background-color: #A9A7AA;
+  background-color: F9F9F9;
 }
 
 .center{
@@ -42,7 +46,7 @@ nav a{
 }
 
 .bottone_medio{
-  padding: 5px 10px;
+  padding: 7px 10px;
   font-size: 12px;
 }
 
@@ -67,6 +71,7 @@ header{
 }
 
 nav{
+  margin-left: 20px;
   float: left;
   width: 50%;
 }
@@ -108,4 +113,16 @@ nav a:hover{
   margin-right: 5px;
   text-decoration: none;
 }
+
+.div_centrale{
+  margin-top: 50px;
+  font-size: 20px;
+  width: 50%;
+  color: white;
+}
+
+div.div_centrale input.bottone{
+  margin-top:30px;
+}
+
 /*INIZIO SECONDA SLIDE*/
