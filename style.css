@@ -13,6 +13,9 @@ body{
   background-color: #7fb802;
 }
 
+.font_green{
+  color: #7fb802;
+}
 nav a{
   color: white;
   font-weight: bold;
@@ -23,8 +26,8 @@ nav a{
 }
 
 .ret_grigi{
-  height: 200px;
-  background-color: F9F9F9;
+  background-color: #F9F9F9;
+  padding: 20px;
 }
 
 .center{
@@ -54,6 +57,15 @@ nav a{
   background: transparent;
   border: 1px solid #4e8cb6;
 }
+
+.widget{
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+
+
 
 /*REGOLE CSS HEADER*/
 header{
@@ -126,3 +138,19 @@ div.div_centrale input.bottone{
 }
 
 /*INIZIO SECONDA SLIDE*/
+
+div.ret_grigi p:first-child{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.stile_p{
+  font-size: 14px;
+  line-height: 30px;
+}
+
+div.section::after{
+  content: "";
+  display: table;
+  clear: both;
+}
